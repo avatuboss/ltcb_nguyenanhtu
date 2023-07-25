@@ -169,7 +169,7 @@ void exercise6() {
         double remainingKm = numKm - discountThreshold;
         totalCost = firstKmPrice + 4 * from2To5KmPrice + remainingKm * from6AndAboveKmPrice;
 
-        // Gi?m giá n?u s? km vý?t quá ngý?ng
+        // Giam gia  
         double discountAmount = totalCost * discountPercentage;
         totalCost -= discountAmount;
     }
@@ -180,13 +180,13 @@ void exercise6() {
 }
 
 void exercise7() {
-    const double rateA = 250000; // Gia tien cho phong loai A trong 12 ngay dau
-    const double rateB = 200000; // Gia tien cho phong loai B trong 12 ngay dau
-    const double rateC = 150000; // Gia tien cho phong loai C trong 12 ngay dau
-    const int discountDays = 12; // Ngay duoc giam gia
+    const double rateA = 250000; 
+    const double rateB = 200000; 
+    const double rateC = 150000; 
+    const int discountDays = 12; 
 
-    const double discountA = 0.10; // Ty le giam gia cho phong loai A sau 12 ngay
-    const double discountB = 0.08; // Ty le giam gia cho phong loai B sau 12 ngay
+    const double discountA = 0.10; 
+    const double discountB = 0.08; 
 
     int numDays;
     char roomType;
@@ -249,7 +249,7 @@ int getDaysInMonth(int month, int year) {
         case 2:
             return isLeapYear(year) ? 29 : 28;
         default:
-            return -1; // Tháng không h?p l?
+            return -1; 
     }
 }
 
@@ -328,7 +328,7 @@ void exercise9() {
     cout << "Nhap diem Hoa: ";
     cin >> chemistryScore;
 
-    // Tính ði?m trung b?nh 3 môn
+
     double averageScore = (mathScore + physicsScore + chemistryScore) / 3.0;
 
     cout << "Diem trung binh 3 mon cua hoc sinh " << name << " la: " << averageScore << endl;
@@ -399,4 +399,3 @@ int main() {
 
     return 0;
 }
-
