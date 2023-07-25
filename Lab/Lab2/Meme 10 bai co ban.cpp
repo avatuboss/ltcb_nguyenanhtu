@@ -333,7 +333,6 @@ void exercise9() {
 
     cout << "Diem trung binh 3 mon cua hoc sinh " << name << " la: " << averageScore << endl;
 
-    // X?p lo?i h?c sinh
     if (averageScore >= 9.0) {
         cout << "Xep loai: Xuat sac" << endl;
     } else if (averageScore >= 8.0) {
